@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #eceffc;
+  /* margin: 50px; */
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  /* display: inline-block; */
+}
+
+.grid {
+  display: grid;
+  /* display: inline-grid; */
+  grid-template-columns: auto auto auto;
+  gap: 100px;
+  justify-content: space-around !important;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* @media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
+
+div > div {
+  /* width: 20rem;
+  height: 7rem; */
+  border-radius: 100%;
+  text-align: center;
+  filter: drop-shadow(10px 10px 10px rgba(128, 128, 128, 0.456));
+}
+
+p {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* div:last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+div:first-child {
+  border-radius: 20px 20px 0px 0px;
+
+} */
+
+.buttons {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.buttons .active {
+  background-color: #72d8b1;
+}
+
+.buttons a {
+  all: unset;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(89, 109, 114);
+  padding: 20px;
+  border-radius: 20px;
+  width: fit-content;
+  justify-content: center;
+}
+
+.c1 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #498553 0deg 90deg,
+    #d7eadd 90deg 180deg,
+    #e9f3ed 180deg 270deg,
+    #fff 270deg 360deg
+  );
+}
+
+.c2 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #0e9e2c 0deg 90deg,
+    #1bc23e 90deg 180deg,
+    #0b0b0b 180deg 270deg,
+    #fff 270deg 360deg
+  );
+}
+
+.c3 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #1b65a7 0deg 90deg,
+    #040615 90deg 180deg,
+    #f2f4f5 180deg 270deg,
+    #fff 270deg 360deg
+  );
+}
+
+.c4 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #4c76e2 0deg 90deg,
+    #333333 90deg 180deg,
+    #acacac 180deg 270deg,
+    #fff 270deg 360deg
+  );
+}
+
+.c5 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #13542d 0deg 90deg,
+    #c3cf0a 90deg 180deg,
+    #e7eee8 180deg 270deg,
+    #fff 270deg 360deg
+  );
+}
+
+.c6 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #242132 0deg 90deg,
+    #746cfe 90deg 180deg,
+    #ae8cfa 180deg 270deg,
+    #fefcff 270deg 360deg
+  );
+}
+
+.c7 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #0e0f26 0deg 90deg,
+    #302399 90deg 180deg,
+    #5f23a5 180deg 270deg,
+    #fffcff 270deg 360deg
+  );
+}
+
+.c8 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #0d2350 0deg 90deg,
+    #0971c9 90deg 180deg,
+    #6da8e2 180deg 270deg,
+    #fffefd 270deg 360deg
+  );
+}
+
+.c9 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #333333 0deg 90deg,
+    #cb5554 90deg 180deg,
+    #eae5db 180deg 270deg,
+    #faf6f5 270deg 360deg
+  );
+}
+
+.c10 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #6738dc 0deg 90deg,
+    #61bbfe 90deg 180deg,
+    #fda62b 180deg 270deg,
+    #c3c3d6 270deg 360deg
+  );
+}
+
+.c11 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #db778f 0deg 90deg,
+    #1877b8 90deg 180deg,
+    #ffe6c7 180deg 270deg,
+    #c8e7fe 270deg 360deg
+  );
+}
+
+.c12 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #fa1a02 0deg 90deg,
+    #1f46b4 90deg 180deg,
+    #fed801 180deg 270deg,
+    #7eb340 270deg 360deg
+  );
+}
+
+.c13 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #2aa8c0 0deg 90deg,
+    #ece2db 90deg 180deg,
+    #46968d 180deg 270deg,
+    #42aedc 270deg 360deg
+  );
+}
+
+.c14 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #97a9d4 0deg 90deg,
+    #687831 90deg 180deg,
+    #ffbc58 180deg 270deg,
+    #271916 270deg 360deg
+  );
+}
+
+.c15 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #0c4e57 0deg 90deg,
+    #a45b15 90deg 180deg,
+    #f0e0d5 180deg 270deg,
+    #2b3019 270deg 360deg
+  );
+}
+
+.c16 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #1b2223 0deg 90deg,
+    #3a4f50 90deg 180deg,
+    #0ef6cc 180deg 270deg,
+    #f4fefd 270deg 360deg
+  );
+}
+
+.c17 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #2e2828 0deg 90deg,
+    #503a3a 90deg 180deg,
+    #f65151 180deg 270deg,
+    #fef4f4 270deg 360deg
+  );
+}
+
+.c18 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #1b0112 0deg 90deg,
+    #5a0834 90deg 180deg,
+    #9d0b51 180deg 270deg,
+    #e44ec3 270deg 360deg
+  );
+}
+
+.c19 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #2b2726 0deg 90deg,
+    #403541 90deg 180deg,
+    #8e43ed 180deg 270deg,
+    #f0ec8b 270deg 360deg
+  );
+}
+
+.c20 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #1a1c22 0deg 90deg,
+    #3d3a50 90deg 180deg,
+    #580ef6 180deg 270deg,
+    #f7f7f7 270deg 360deg
+  );
+}
+
+.c21 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #26292b 0deg 90deg,
+    #2e3239 90deg 180deg,
+    #5f7adb 180deg 270deg,
+    #a2b2ee 270deg 360deg
+  );
+}
+
+.c22 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #1b1d24 0deg 90deg,
+    #365a08 90deg 180deg,
+    #5d9d0b 180deg 270deg,
+    #72eb3a 270deg 360deg
+  );
+}
+
+.c23 {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(
+    #3b7197 0deg 90deg,
+    #74bde0 90deg 180deg,
+    #aad09f 180deg 270deg,
+    #f8e2bd 270deg 360deg
+  );
+}

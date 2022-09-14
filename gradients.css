@@ -1,0 +1,41 @@
+
+div > div {
+    border-radius: 25px !important;
+}
+
+
+.g1 {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #f09819, #edde5d);
+}
+
+.g2 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, #00416a, #799f0c, #ffe000);
+  }
+
+  .g3 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, #71c5ee, #025091);
+  }
+
+  .g4 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, #fbee97, #adedd5);
+  }
+
+  .g5 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, #ff7082, #c0e9ff);
+  }
+
+  .g6 {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, #85ffbd, #FCFB7C);
+  }
