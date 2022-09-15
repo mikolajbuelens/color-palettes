@@ -1,8 +1,58 @@
-
 div > div {
-    border-radius: 25px !important;
+  border-radius: 25px !important;
 }
 
+.gradientGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trioGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradientGrid h2, .trioGrid h2 {
+  padding: 5px;
+}
+
+.gc1 {
+  background-color: #f09819;
+  border-radius: 25px 0 0 25px;
+}
+
+.gc2 {
+  background-color: #edde5d;
+  border-radius: 0 25px 25px 0;
+}
+
+.gc3 {
+  background-color: #00416a;
+  border-radius: 25px 0 0 25px;
+}
+.gc4 {
+  background-color: #799f0c;
+}
+.gc5 {
+  background-color: #ffe000;
+  border-radius: 0 25px 25px 0;
+}
+
+.gc6 {
+  background-color: #71c5ee;
+  border-radius: 25px 0 0 25px;
+}
+
+.gc7 {
+  background-color: #025091;
+  border-radius: 0 25px 25px 0;
+}
 
 .g1 {
   width: 600px;
@@ -11,31 +61,31 @@ div > div {
 }
 
 .g2 {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(to right, #00416a, #799f0c, #ffe000);
-  }
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #00416a, #799f0c, #ffe000);
+}
 
-  .g3 {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(to right, #71c5ee, #025091);
-  }
+.g3 {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #71c5ee, #025091);
+}
 
-  .g4 {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(to right, #fbee97, #adedd5);
-  }
+.g4 {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #fbee97, #adedd5);
+}
 
-  .g5 {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(to right, #ff7082, #c0e9ff);
-  }
+.g5 {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #ff7082, #c0e9ff);
+}
 
-  .g6 {
-    width: 600px;
-    height: 400px;
-    background: linear-gradient(to right, #85ffbd, #FCFB7C);
-  }
+.g6 {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(to right, #85ffbd, #fcfb7c);
+}
